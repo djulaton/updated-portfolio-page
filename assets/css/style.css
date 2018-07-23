@@ -9,6 +9,11 @@
   border-radius: 50%;
 }
 
+.project-pic {
+  width: 400px;
+  height: 250px;
+}
+
 #inTouch {
   color:goldenrod;
 }
@@ -30,6 +35,11 @@
     text-align: center;
     margin-bottom: 10px;
 
+}
+
+.img-circle {
+  width: 350px;
+  height: 350px;
 }
 
 .navbar {
@@ -220,5 +230,13 @@
 }
 @keyframes animate-positive{
     0% { width: 0%; }
+}
+
+@media (max-width: 600px) {
+  .img-circle {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+  }
 }
 
