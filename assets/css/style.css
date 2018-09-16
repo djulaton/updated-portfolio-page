@@ -1,7 +1,11 @@
-
 .jumbotron {
   background-image: url('../images/code-background.png');
   height: 500px;
+}
+
+#portfolio:hover {
+  -webkit-animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 .img-circle {
